@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+int main(){
+    int w;
+    scanf("%d",&w);
+    if(w>3 && w%2==0){
+        printf("YES");
+    }
+    else{
+        printf("NO");
+    }
+
+    return 0;
+}
